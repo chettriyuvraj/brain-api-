@@ -12,8 +12,8 @@ const db = knex({
     client: 'pg',
     connection: {
         host: '127.0.0.1',
-        user: 'postgres',
-        password: 'yuvi1998',
+        user: 'postgresql-angular-35261',
+        password: '',
         database: 'smartbrain'
     }
 });
