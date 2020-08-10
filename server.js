@@ -30,6 +30,7 @@ app.use(express.json());
 app.use(cors());
 
 
+app.get('/', (req, res) => { res.json('Server is up!') });
 
 app.post('/register', (req,res) =>{  register.handleRegister(req,res,bcrypt,db)});
 
